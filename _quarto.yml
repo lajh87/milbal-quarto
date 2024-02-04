@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: "The Military Balance (1961)"
+  author: "IISS"
+  date: "1961"
+  chapters:
+  - index.qmd
+  - part: "PART I. THE COMMUNIST POWERS"
+    chapters: 
+      - 01-soviet-union.qmd
+      - 02-warsaw-pact.qmd
+      - 03-china.qmd
+      - 04-the-far-east.qmd
+  - part: "PART 2. THE Western Alliances"
+    chapters: 
+      - 05-strategic-forces.qmd
+      - 06-nato.qmd
+      - 07-central-treaty-organisation.qmd
+      - 08-south-asia-treaty-organisation.qmd
+      
+format:
+  html:
+    number-sections: false
+  
+
